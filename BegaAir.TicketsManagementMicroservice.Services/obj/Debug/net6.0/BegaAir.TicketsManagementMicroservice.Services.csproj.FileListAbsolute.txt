@@ -1,0 +1,17 @@
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\bin\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Services.deps.json
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\bin\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Services.dll
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\bin\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Services.pdb
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\bin\Debug\net6.0\BegaAir.TicketsManagementMicroservice.DataAccess.dll
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\bin\Debug\net6.0\BegaAir.TicketsManagementMicroservice.DataAccess.pdb
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\obj\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Services.csproj.AssemblyReference.cache
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\obj\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\obj\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Services.AssemblyInfoInputs.cache
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\obj\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Services.AssemblyInfo.cs
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\obj\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Services.csproj.CoreCompileInputs.cache
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\obj\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Services.csproj.CopyComplete
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\obj\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Services.dll
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\obj\Debug\net6.0\refint\BegaAir.TicketsManagementMicroservice.Services.dll
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\obj\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Services.pdb
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\obj\Debug\net6.0\ref\BegaAir.TicketsManagementMicroservice.Services.dll
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\bin\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Domain.dll
+D:\Faculta\Master\An 1\Sem 2\ADA\BegaAir.TicketsManagementMicroservice\BegaAir.TicketsManagementMicroservice.Services\bin\Debug\net6.0\BegaAir.TicketsManagementMicroservice.Domain.pdb

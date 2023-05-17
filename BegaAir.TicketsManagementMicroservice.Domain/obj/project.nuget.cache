@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tzfc+27PWEhyDXukeBcfBHjq25sh7X0C9Oy/YedoZ8+vrycIajuWjDV3Ni9O5UTAmAoBIJUEJ6uzPQzo7HLW2w==",
+  "success": true,
+  "projectFilePath": "D:\\Faculta\\Master\\An 1\\Sem 2\\ADA\\BegaAir.TicketsManagementMicroservice\\BegaAir.TicketsManagementMicroservice.Domain\\BegaAir.TicketsManagementMicroservice.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ecata\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

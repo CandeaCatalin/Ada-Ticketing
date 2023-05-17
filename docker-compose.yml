@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+  begaair.ticketsmanagementmicroservice.rest:
+    image: begaair-api
+    build:
+      context: .
+      dockerfile: BegaAir.TicketsManagementMicroservice.REST/Dockerfile
+    environment:
+          - ASPNETCORE_URLS=https://+:443;http://+:80
+          - ASPNETCORE_HTTPS_PORT=443
+    ports:
+          - "3000:443"
+    depends_on:
+        - database
+  database:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+      SA_PASSWORD: mHDyhpoc4336HXuF0GYO
+      ACCEPT_EULA: Y
+      MSSQL_PID: Express
+      MSSQL_TCP_PORT: 1433
+      MSSQL_DATABASE: TicketsManagement
+      MSSQL_PASSWORD: mHDyhpoc4336HXuF0GYO
+    ports:
+      - "1432:1433"

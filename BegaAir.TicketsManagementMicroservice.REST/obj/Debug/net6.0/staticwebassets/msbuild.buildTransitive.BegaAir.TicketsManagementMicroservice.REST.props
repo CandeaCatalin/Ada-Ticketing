@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BegaAir.TicketsManagementMicroservice.REST.props" />
+</Project>

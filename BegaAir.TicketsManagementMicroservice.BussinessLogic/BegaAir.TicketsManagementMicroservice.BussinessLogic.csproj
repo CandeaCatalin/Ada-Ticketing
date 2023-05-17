@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BegaAir.TicketsManagementMicroservice.Domain\BegaAir.TicketsManagementMicroservice.Domain.csproj" />
+    <ProjectReference Include="..\BegaAir.TicketsManagementMicroservice.Repository\BegaAir.TicketsManagementMicroservice.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

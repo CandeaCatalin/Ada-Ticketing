@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BegaAir.TicketsManagementMicroservice.DataAccess\BegaAir.TicketsManagementMicroservice.DataAccess.csproj" />
+    <ProjectReference Include="..\BegaAir.TicketsManagementMicroservice.Domain\BegaAir.TicketsManagementMicroservice.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Mappers\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BegaAir.TicketsManagementMicroservice.REST", "BegaAir.TicketsManagementMicroservice.REST\BegaAir.TicketsManagementMicroservice.REST.csproj", "{48F987B4-3584-46AC-9DD5-5C3B2EBA3513}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE12FC33-9E25-4587-94D5-50F197D473AF} = {FE12FC33-9E25-4587-94D5-50F197D473AF}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BegaAir.TicketsManagementMicroservice.BussinessLogic", "BegaAir.TicketsManagementMicroservice.BussinessLogic\BegaAir.TicketsManagementMicroservice.BussinessLogic.csproj", "{035F29FC-E7DC-41D5-9D9C-4CD979DF087A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BegaAir.TicketsManagementMicroservice.Repository", "BegaAir.TicketsManagementMicroservice.Repository\BegaAir.TicketsManagementMicroservice.Repository.csproj", "{8CE7C776-BD1F-4316-ABF3-902FE4AC5C93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BegaAir.TicketsManagementMicroservice.Domain", "BegaAir.TicketsManagementMicroservice.Domain\BegaAir.TicketsManagementMicroservice.Domain.csproj", "{50787FF8-D016-4248-957B-B1DBD488762A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BegaAir.TicketsManagementMicroservice.DataAccess", "BegaAir.TicketsManagementMicroservice.DataAccess\BegaAir.TicketsManagementMicroservice.DataAccess.csproj", "{FE12FC33-9E25-4587-94D5-50F197D473AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BegaAir.TicketsManagementMicroservice.DI", "BegaAir.TicketsManagementMicroservice.DI\BegaAir.TicketsManagementMicroservice.DI.csproj", "{60D4EC40-0EEF-4302-8749-A9E31F3096DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BegaAir.TicketsManagementMicroservice.Services", "BegaAir.TicketsManagementMicroservice.Services\BegaAir.TicketsManagementMicroservice.Services.csproj", "{DF65AD61-3C7C-4535-964A-A087D4ADF392}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A99C1C2A-FAAD-4540-A81D-8692FD296E99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48F987B4-3584-46AC-9DD5-5C3B2EBA3513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F987B4-3584-46AC-9DD5-5C3B2EBA3513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F987B4-3584-46AC-9DD5-5C3B2EBA3513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F987B4-3584-46AC-9DD5-5C3B2EBA3513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035F29FC-E7DC-41D5-9D9C-4CD979DF087A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035F29FC-E7DC-41D5-9D9C-4CD979DF087A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035F29FC-E7DC-41D5-9D9C-4CD979DF087A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035F29FC-E7DC-41D5-9D9C-4CD979DF087A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE7C776-BD1F-4316-ABF3-902FE4AC5C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE7C776-BD1F-4316-ABF3-902FE4AC5C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE7C776-BD1F-4316-ABF3-902FE4AC5C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE7C776-BD1F-4316-ABF3-902FE4AC5C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50787FF8-D016-4248-957B-B1DBD488762A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50787FF8-D016-4248-957B-B1DBD488762A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50787FF8-D016-4248-957B-B1DBD488762A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50787FF8-D016-4248-957B-B1DBD488762A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE12FC33-9E25-4587-94D5-50F197D473AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE12FC33-9E25-4587-94D5-50F197D473AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE12FC33-9E25-4587-94D5-50F197D473AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE12FC33-9E25-4587-94D5-50F197D473AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D4EC40-0EEF-4302-8749-A9E31F3096DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D4EC40-0EEF-4302-8749-A9E31F3096DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D4EC40-0EEF-4302-8749-A9E31F3096DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D4EC40-0EEF-4302-8749-A9E31F3096DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF65AD61-3C7C-4535-964A-A087D4ADF392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF65AD61-3C7C-4535-964A-A087D4ADF392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF65AD61-3C7C-4535-964A-A087D4ADF392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF65AD61-3C7C-4535-964A-A087D4ADF392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99C1C2A-FAAD-4540-A81D-8692FD296E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99C1C2A-FAAD-4540-A81D-8692FD296E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99C1C2A-FAAD-4540-A81D-8692FD296E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99C1C2A-FAAD-4540-A81D-8692FD296E99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1E8B86E-C859-4B5F-86AA-4AA3F254C01E}
+	EndGlobalSection
+EndGlobal

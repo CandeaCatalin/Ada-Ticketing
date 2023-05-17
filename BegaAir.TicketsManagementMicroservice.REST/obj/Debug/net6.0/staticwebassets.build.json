@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UmO3L+7XMW/Sth27ZsYfkBM8Ez5s06KU2O4RZNKYGy4=",
+  "Source": "BegaAir.TicketsManagementMicroservice.REST",
+  "BasePath": "_content/BegaAir.TicketsManagementMicroservice.REST",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
