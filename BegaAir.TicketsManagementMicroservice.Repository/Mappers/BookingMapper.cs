@@ -8,7 +8,8 @@ public static class BookingMapper
         {
             Id = dataAccessBooking.Id,
             InProgress = dataAccessBooking.InProgress,
-            User = UserMapper.DataAccessToDomainUserMapper(dataAccessBooking.User),
+            NoOfPassengers = dataAccessBooking.NoOfPassengers,
+                User = UserMapper.DataAccessToDomainUserMapper(dataAccessBooking.User),
             Flight = FlightMapper.DataAccessToDomainFlightMapper(dataAccessBooking.Flight),
         };
     }

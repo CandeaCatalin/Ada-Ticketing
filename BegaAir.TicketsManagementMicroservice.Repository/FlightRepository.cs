@@ -72,10 +72,9 @@ public class FlightRepository:IFlightRepository
         return new { departureLocations, arrivalLocations };
     }
 
-    public async Task<List<Flight>> GetFilteredFlights(string arrivalLocation, string departureLocation, DateTime serviceStartDate,
-        DateTime serviceEndDate)
+    public async Task<List<Flight>> GetFilteredFlights(string arrivalLocation, string departureLocation, DateTime departureTime)
     {
-        var flightsFromDb = await dataContext.Flights.Where(x=>x.DepartureLocation == departureLocation && x.ArrivalLocation == arrivalLocation && x.ServiceStartDate <= serviceStartDate && x.ServiceEndDate >= serviceEndDate).ToListAsync();
+        var flightsFromDb = await dataContext.Flights.Where(x=>x.DepartureLocation == departureLocation && x.ArrivalLocation == arrivalLocation && x.ServiceStartDate <= departureTime && x.ServiceEndDate >= departureTime).ToListAsync();
         var domainFlights = new List<Flight>();
 
         flightsFromDb.ForEach(flight => domainFlights.Add(FlightMapper.DataAccessToDomainFlightMapper(flight)));

@@ -13,9 +13,9 @@ public class BookingBusinessLogic : IBookingBusinessLogic
         this.bookingRepository = bookingRepository;
     }
 
-    public async Task<Booking> AddBooking(User user, int flightId)
+    public async Task<Booking> AddBooking(User user, int flightId, int noOfPassengers)
     {
-        return await bookingRepository.AddBooking(user, flightId);
+        return await bookingRepository.AddBooking(user, flightId, noOfPassengers);
     }
 
     public async Task DeleteBooking(int bookingId)

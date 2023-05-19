@@ -17,11 +17,11 @@ namespace BegaAir.TicketsManagementMicroservice.REST.Controllers
         }
 
         [HttpPost("addBooking")]
-        public async Task<IActionResult> AddBooking(int flightId)
+        public async Task<IActionResult> AddBooking(int flightId, int noOfPassengers)
         {
             var jwtToken = await HttpContext.GetTokenAsync("access_token");
             var user = JwtService.getUserFromJwt(jwtToken);
-            return Ok(await bookingBusinessLogic.AddBooking(user,flightId));
+            return Ok(await bookingBusinessLogic.AddBooking(user,flightId, noOfPassengers));
         }
 
         [HttpDelete]

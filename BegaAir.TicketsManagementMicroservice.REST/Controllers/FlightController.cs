@@ -58,10 +58,10 @@ namespace BegaAir.TicketsManagementMicroservice.REST.Controllers
 
         [HttpGet("filteredFlights")]
         public async Task<IActionResult> GetFilteredValued(string departureLocation, string arrivalLocation,
-            DateTime serviceStartDate, DateTime serviceEndDate)
+            DateTime departureTime)
         {
             var flights = await flightBusinessLogic.GetFilteredFlights(arrivalLocation, departureLocation,
-                serviceStartDate, serviceEndDate);
+                departureTime);
             return Ok(flights);
         }
     }

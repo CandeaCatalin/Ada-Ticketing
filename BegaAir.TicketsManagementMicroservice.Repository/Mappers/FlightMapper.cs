@@ -23,6 +23,7 @@ public static class FlightMapper
         return new DataAccess.Entities.Flight
         {
             Id = domainModelFlight.Id,
+            FlightNumber = domainModelFlight.FlightNumber,
             ArrivalLocation = domainModelFlight.ArrivalLocation,
             ArrivalTime = domainModelFlight.ArrivalTime,
             DepartureLocation = domainModelFlight.DepartureLocation,

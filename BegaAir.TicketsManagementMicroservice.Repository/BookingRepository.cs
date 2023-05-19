@@ -15,7 +15,7 @@ public class BookingRepository : IBookingRepository
         this.dataContext = dataContext;
     }
 
-    public async Task<Booking> AddBooking(User user, int flightId)
+    public async Task<Booking> AddBooking(User user, int flightId, int noOfPassengers)
     {
         var userFromDb = await dataContext.Users.FirstOrDefaultAsync(u => u.Id == user.Id);
         var flightFromDb = await dataContext.Flights.FirstOrDefaultAsync(f => f.Id == flightId);
@@ -42,6 +42,7 @@ public class BookingRepository : IBookingRepository
         {
             InProgress = true,
             CreateTime = DateTime.UtcNow,
+            NoOfPassengers = noOfPassengers,
             User = userFromDb,
             Flight = flightFromDb
         };

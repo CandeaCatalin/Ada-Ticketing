@@ -40,10 +40,9 @@ public class FlightBusinessLogic:IFlightBusinessLogic
         return flightRepository.GetFlightLocations();
     }
 
-    public Task<List<Flight>> GetFilteredFlights(string arrivalLocation, string departureLocation, DateTime serviceStartDate,
-        DateTime serviceEndDate)
+    public Task<List<Flight>> GetFilteredFlights(string arrivalLocation, string departureLocation, DateTime departureTime)
     {
         return flightRepository.GetFilteredFlights(arrivalLocation, departureLocation,
-            serviceStartDate, serviceEndDate);
+             departureTime);
     }
 }

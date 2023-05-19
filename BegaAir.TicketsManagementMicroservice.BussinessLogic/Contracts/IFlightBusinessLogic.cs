@@ -10,5 +10,5 @@ public interface IFlightBusinessLogic
     Task<Flight> EditFlight(Flight editedFlight);
     Task DeleteFlight(int id);
     Task<object> GetFlightLocations();
-    Task<List<Flight>> GetFilteredFlights(string arrivalLocation, string departureLocation, DateTime serviceStartDate, DateTime serviceEndDate);
+    Task<List<Flight>> GetFilteredFlights(string arrivalLocation, string departureLocation, DateTime departureTime);
 }
