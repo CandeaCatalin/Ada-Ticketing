@@ -9,6 +9,7 @@ public static class FlightMapper
         {
             ArrivalLocation = dataAccessFlight.ArrivalLocation,
             ArrivalTime = dataAccessFlight.ArrivalTime,
+            FlightNumber = dataAccessFlight.FlightNumber,
             DepartureLocation = dataAccessFlight.DepartureLocation,
             DepartureTime = dataAccessFlight.DepartureTime,
             Price = dataAccessFlight.Price,

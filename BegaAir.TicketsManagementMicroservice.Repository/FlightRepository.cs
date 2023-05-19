@@ -43,6 +43,7 @@ public class FlightRepository:IFlightRepository
 
         flightFromDb.ArrivalLocation = editedFlight.ArrivalLocation;
         flightFromDb.ArrivalTime = editedFlight.ArrivalTime;
+        flightFromDb.FlightNumber = editedFlight.FlightNumber;
         flightFromDb.DepartureLocation =editedFlight.DepartureLocation;
         flightFromDb.DepartureTime = editedFlight.DepartureTime;
         flightFromDb.Price = editedFlight.Price;
